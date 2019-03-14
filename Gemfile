@@ -19,6 +19,7 @@ gem 'rails-i18n', '~> 5.1', '>= 5.1.3'
 gem 'sass-rails', '~> 5.0'
 gem 'stripe', '~> 4.9'
 gem 'turbolinks', '~> 5'
+gem 'twilio-ruby', '~> 5.21', '>= 5.21.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'unsplash', '~> 1.5', '>= 1.5.5'
 

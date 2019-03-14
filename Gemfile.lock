@@ -248,6 +248,10 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
+    twilio-ruby (5.21.1)
+      faraday (~> 0.9)
+      jwt (>= 1.5, <= 2.5)
+      nokogiri (>= 1.6, < 2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (4.1.20)
@@ -298,6 +302,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   stripe (~> 4.9)
   turbolinks (~> 5)
+  twilio-ruby (~> 5.21, >= 5.21.1)
   tzinfo-data
   uglifier (>= 1.3.0)
   unsplash (~> 1.5, >= 1.5.5)
