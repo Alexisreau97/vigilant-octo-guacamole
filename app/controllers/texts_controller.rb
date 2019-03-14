@@ -4,8 +4,8 @@ class TextsController < ApplicationController
   def index; end
 
   def create
-    account_sid = 'AC1bf6cabfceaeb2b6ab6a7f81c7fc038b'
-    auth_token = '59c0708b92305341912bbeb110d93ed9'
+    account_sid = ENV['account_sid']
+    auth_token = ENV['auth_token']
     client = Twilio::REST::Client.new(account_sid, auth_token)
 
     from = '+12015145710' # Your Twilio number
