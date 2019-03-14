@@ -1,6 +1,10 @@
-<h1>Texts#index</h1>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-<%= form_tag texts_path do %>
-  <%= text_field_tag "input" %>
-  <%= submit_tag "Send" %>
-<% end %>
+<center>
+	<%= form_tag texts_path do %>
+	  <%= text_field :input, params[:input], class: 'sms', placeholder: 'Send me a message' %>
+	  <button class="btn" type="submit">
+	  	<%= image_tag "send.svg", class: "plane" %>
+      </button>
+	<% end %>
+</center>

@@ -1,3 +1,7 @@
+# Method has too many lines.
+Metrics/MethodLength:
+  Max: 11
+
 # Line is too long.
 Metrics/LineLength:
   Max: 120
