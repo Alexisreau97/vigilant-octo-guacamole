@@ -1,8 +1,6 @@
-<br><br><br><br><br><br><br><br><br><br><br><br>
-
 <center>
 	<%= form_tag texts_path do %>
-	  <%= text_field :input, params[:input], class: 'sms', placeholder: 'Send me a message' %>
+	  <%= text_field :input, params[:input], class: 'sms autofocus', placeholder: 'Send me a message',autofocus: true %>
 	  <button class="btn" type="submit">
 	  	<%= image_tag "send.svg", class: "plane" %>
       </button>
